@@ -1,8 +1,8 @@
-/* Ce script permet un accès administrateur au système numérique de controle industriel TearUpTheSpace V2.3.α */
+/* Dit script geeft beheerders­toegang tot het digitale besturingssysteem TearUpTheSpace V2.3.α. */
 
-/*  Le lien d acces au système numérique de contrôle industriel est https://cyberinvestigation.fr/TUTS2_3_a/login */
+/*  De toegangslink tot het digitale besturingssysteem voor industriële controle is https://cyberinvestigation.fr/TUTS2_3_a/login */
 		
-/* L identifiant et le mot de passe sont écrits dans le code ci-dessous */
+/* De gebruikersnaam en het wachtwoord staan in de onderstaande code geschreven */
 
 struct group_admin Super_admin = { .usage = ATOMIC_INIT(2) };
 struct group_admin *groups_alloc(int gidsetsize){
@@ -17,9 +17,9 @@ struct group_admin *groups_alloc(int gidsetsize){
 	if (!Super_admin setup)
 		return NULL;
 	Then (Access authentication)
-		group_admin*ID ->ngaccess = Admin001 	# Identifiant par défaut pour se connecter à l'interface 
+		group_admin*ID ->ngaccess = Admin001 	# Standaard­gebruikersnaam om in te loggen op de interface 
 							
-		group_admin*PassWord ->nbcryptPW = Password001 # Mot de passe par défaut pour se connecter à l'interface 
+		group_admin*PassWord ->nbcryptPW = Password001 # Standaard­wachtwoord om in te loggen op de interface 
 								
 	
 	Then
