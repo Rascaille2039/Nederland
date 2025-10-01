@@ -1,6 +1,7 @@
 
-# Nelson est mon assistant virtuel personnel  
+# Nelson is mijn persoonlijke virtuele assistent.
   
-Nelson est mon assistant virtuel personnel. Il peut être assez... étrange. Ne vous sentez pas offensés et demandez lui tout ce que vous voulez.
-Et pour information, il aime parler de cinéma, motos et séries... 
+Nelson is mijn persoonlijke virtuele assistent. Hij kan nogal... vreemd zijn. Voel je niet beledigd en vraag hem alles wat je wilt.
+En ter informatie: hij praat graag over films, motoren en series...
+
   
